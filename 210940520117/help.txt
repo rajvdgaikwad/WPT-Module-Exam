@@ -1,0 +1,22 @@
+Front End
+
+npx create-react-app projectname
+npm start
+
+bootstrap- 
+	npm install react-bootstrap bootstrap@5.1.3
+	import 'bootstrap/dist/css/bootstrap.min.css'; (index.js)
+
+               import { useState } from "react"; (just check once)
+
+	npm i axios;
+BackEnd
+
+db.js--->    install mysql,blubird,express,cors,nodemon
+	
+	 const Promise = require("bluebird");
+	 Promise.promisifyAll(require("mysql/lib/Connection").prototype)
+exprs.js--->
+	const cors =require("cors");
+	app.use(cors());
+	app.use(express.json());
